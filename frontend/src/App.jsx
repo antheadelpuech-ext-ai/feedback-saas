@@ -20,8 +20,8 @@ function App() {
 
   return (
     <main>
-      {/* Titre de la page */}
-      <h1>Feedback Hub</h1>
+      {/* Titre de la page : il dépend de l'environnement (fichiers .env) */}
+      <h1>{import.meta.env.VITE_APP_NAME}</h1>
 
       {/* Formulaire de saisie d'une idée */}
       <form onSubmit={ajouterIdee}>
