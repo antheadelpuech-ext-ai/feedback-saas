@@ -1,0 +1,9 @@
+/* Styles de l'application */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  padding: 2rem;
+}
